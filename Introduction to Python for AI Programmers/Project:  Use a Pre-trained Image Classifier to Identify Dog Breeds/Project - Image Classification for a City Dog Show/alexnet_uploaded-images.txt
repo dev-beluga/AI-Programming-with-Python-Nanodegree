@@ -1,0 +1,96 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                Football_01.jpg  label:                   football
+ 2 key:                     Dog_01.jpg  label:                        dog
+ 3 key:                   Koala_01.jpg  label:                      koala
+ 4 key:                     Dog_02.jpg  label:                        dog
+
+File Name= Football_01.jpg 
+Pet Image Label= football 
+Classifier Label= soccer ball 
+Match= 0
+
+File Name= Dog_01.jpg 
+Pet Image Label= dog 
+Classifier Label= german shepherd, german shepherd dog, german police dog, alsatian 
+Match= 1
+
+File Name= Koala_01.jpg 
+Pet Image Label= koala 
+Classifier Label= koala, koala bear, kangaroo bear, native bear, phascolarctos cinereus 
+Match= 1
+
+File Name= Dog_02.jpg 
+Pet Image Label= dog 
+Classifier Label= red wolf, maned wolf, canis rufus, canis niger 
+Match= 0
+
+     MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+                  Koala_01.jpg: 
+Real:                      koala   Classifier: koala, koala bear, kangaroo bear, native bear, phascolarctos cinereus
+
+ NOT A MATCH:
+
+               Football_01.jpg: 
+Real:                   football   Classifier:                    soccer ball
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+     MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                  Koala_01.jpg: 
+Real:                      koala   Classifier: koala, koala bear, kangaroo bear, native bear, phascolarctos cinereus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+               Football_01.jpg: 
+Real:                   football   Classifier:                    soccer ball  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger  
+PetLabelDog: 1  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+
+Summar statistics in percentage on Model run:
+pct_match: 50.0
+pct_correct_dogs: 50.0
+pct_correct_breed: 50.0
+pct_correct_notdogs: 100.0
+
+INCORRECT Dog/NOT Dog Assignments:
+Real:                        dog   Classifier: red wolf, maned wolf, canis rufus, canis niger
+
+** Total Elapsed Runtime: 0:0:2
