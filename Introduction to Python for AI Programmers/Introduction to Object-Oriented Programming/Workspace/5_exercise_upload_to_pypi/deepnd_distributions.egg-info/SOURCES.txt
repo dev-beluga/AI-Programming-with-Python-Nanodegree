@@ -1,0 +1,10 @@
+setup.py
+deepnd-distributions/Binomialdistribution.py
+deepnd-distributions/Gaussiandistribution.py
+deepnd-distributions/Generaldistribution.py
+deepnd-distributions/__init__.py
+deepnd_distributions.egg-info/PKG-INFO
+deepnd_distributions.egg-info/SOURCES.txt
+deepnd_distributions.egg-info/dependency_links.txt
+deepnd_distributions.egg-info/not-zip-safe
+deepnd_distributions.egg-info/top_level.txt
