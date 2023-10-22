@@ -12,3 +12,18 @@ Numpy, Pandas, Matplotlib/Numpy/onana_save.npy
 Numpy, Pandas, Matplotlib/Pandas/Pandas Mini-Project/AAPL.csv
 Numpy, Pandas, Matplotlib/Pandas/Pandas Mini-Project/AMZN.csv
 Numpy, Pandas, Matplotlib/Pandas/Pandas Mini-Project/GOOG.csv
+.vscode/settings.json
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 2 - Neural Networks in PyTorch (Exercises).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 2 - Neural Networks in PyTorch (Solution).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 3 - Training Neural Networks (Exercises).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 3 - Training Neural Networks (Solution).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 4 - Fashion-MNIST (Exercises).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 4 - Fashion-MNIST (Solution).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 5 - Inference and Validation (Exercises).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 5 - Inference and Validation (Solution).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 6 - Saving and Loading Models.ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 7 - Loading Image Data (Exercises).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 7 - Loading Image Data (Solution).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 8 - Transfer Learning (Exercises).ipynb
+Introduction to Neural Networks/deep-learning-with-pytorch/Part 8 - Transfer Learning (Solution).ipynb
+.gitignore
